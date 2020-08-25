@@ -10,6 +10,6 @@ class EmailAddressParser
   end
   
   def parse
-    @cvs_emails.split(",").collect {|s| s }
+    @cvs_emails.split(",").collect {|s| s.split(,)}
   end
 end
