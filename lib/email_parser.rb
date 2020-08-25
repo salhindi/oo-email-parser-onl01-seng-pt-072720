@@ -10,6 +10,6 @@ class EmailAddressParser
   end
   
   def parse
-    @cvs_emails.split(/\s*,s\s*/)
+    @cvs_emails.split(/\s*,s\*/)
   end
 end
