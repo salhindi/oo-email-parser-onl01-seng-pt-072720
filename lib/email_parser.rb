@@ -10,6 +10,6 @@ class EmailAddressParser
   end
   
   def parse
-    @cvs_emails.split(",").flatten
+    @cvs_emails.split(",").flatten.uniq
   end
 end
